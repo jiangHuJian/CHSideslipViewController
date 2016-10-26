@@ -11,7 +11,7 @@
     self.window.rootViewController = sides;
 ```
 
-##代理监听主页面侧滑是frame的变化
+##代理监听主页面侧滑时frame的变化
 ```objc
    - (void)sideslipMainViewDidScroll:(CHSideslipViewController *)sideslipViewController mainViewFrameValue:(NSValue *)mainViewFrameValue
 {
